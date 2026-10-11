@@ -1,0 +1,17 @@
+# Never include credential material or local runtime configuration.
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+.env
+.env.*
+!.env.example
+id_rsa*
+id_ed25519*
+*private-key*
+*client-secret*
+*session-secret*
+__pycache__/
+.DS_Store
+Thumbs.db
